@@ -4,24 +4,24 @@ import Icon from "@/components/ui/icon";
 const LandingVariant3 = () => {
   const benefits = [
     {
-      icon: "TrendingUp",
-      title: "Постепенный рост",
-      description: "От слова к предложению, от фразы к диалогу",
+      icon: "Brain",
+      title: "Активация словарного запаса",
+      description: "Превращаем пассивные знания в активную речь",
     },
     {
-      icon: "Award",
-      title: "Система достижений",
-      description: "Отмечай прогресс и получай награды",
+      icon: "Mic",
+      title: "Говорение с первой минуты",
+      description: "Никакой теории - только живая практика",
     },
     {
       icon: "Users",
-      title: "Поддержка команды",
-      description: "Ментор и группа поддержки рядом",
+      title: "Работа в парах и группах",
+      description: "Отрабатываем диалоги в безопасной среде",
     },
     {
       icon: "CheckCircle",
-      title: "Гарантия результата",
-      description: "Уверенность в разговоре за 2 месяца",
+      title: "Результат уже на 1-м дне",
+      description: "Почувствуешь прогресс с первого занятия",
     },
   ];
 
@@ -55,18 +55,17 @@ const LandingVariant3 = () => {
             </div>
 
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Стань
+              Твой английский
               <span className="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
-                {" "}
-                уверенным
+                уже внутри тебя
               </span>
-              в английском за 60 дней
+              - просто активируй его
             </h1>
 
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              От неуверенных попыток к свободному общению. Наша программа
-              развития уверенности поможет тебе поверить в себя и заговорить
-              по-английски естественно.
+              У тебя уже есть база - школа, институт, самостоятельное изучение.
+              Но слова "застряли" в голове? Наш интенсив активирует твои знания
+              и превратит их в живую речь за 4 дня.
             </p>
 
             <div className="bg-gradient-to-r from-orange-100 to-red-100 p-6 rounded-2xl mb-8">

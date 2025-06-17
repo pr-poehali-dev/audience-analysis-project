@@ -4,24 +4,24 @@ import Icon from "@/components/ui/icon";
 const LandingVariant1 = () => {
   const benefits = [
     {
-      icon: "Shield",
-      title: "Безопасная среда",
-      description: "Никто не будет смеяться над ошибками",
+      icon: "MessageCircle",
+      title: "Преодолеем страх говорить",
+      description: "90% наших студентов говорят уже после первого урока",
     },
     {
       icon: "Users",
-      title: "Поддержка группы",
-      description: "Все студенты в одной ситуации",
+      title: "Поддержка единомышленников",
+      description: "Группа до 12 человек с таким же уровнем",
     },
     {
       icon: "Target",
-      title: "Постепенный прогресс",
-      description: "От простых фраз к уверенным диалогам",
+      title: "Структурированный подход",
+      description: "От первых слов до уверенных диалогов за 4 дня",
     },
     {
       icon: "Award",
-      title: "Опытные преподаватели",
-      description: "Знают, как помочь заговорить",
+      title: "Проверенная методика",
+      description: "15,000+ студентов уже заговорили с нами",
     },
   ];
 
@@ -53,18 +53,17 @@ const LandingVariant1 = () => {
             </div>
 
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Преодолей страх и
+              Заговори на английском
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                {" "}
-                заговори
+                за 4 дня
               </span>
-              по-английски
+              без страха ошибок
             </h1>
 
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Боишься говорить по-английски? Мы знаем это чувство. Наша методика
-              поможет тебе преодолеть языковой барьер за 30 дней и начать
-              уверенно общаться.
+              Знаешь слова, но боишься говорить? На нашем интенсиве ты
+              преодолеешь языковой барьер и начнешь свободно выражать свои
+              мысли. Уже через 4 дня будешь удивляться своему прогрессу.
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 mb-12">

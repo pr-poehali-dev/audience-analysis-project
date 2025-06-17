@@ -41,10 +41,10 @@ const RegistrationForm = ({
           <Icon name="MessageCircle" size={32} className="text-blue-600" />
         </div>
         <h3 className="text-xl font-bold text-gray-900 mb-2">
-          Записаться на пробный урок
+          Записаться на интенсив
         </h3>
         <p className="text-gray-600 text-sm">
-          Бесплатно • 30 минут • Без обязательств
+          Бесплатно • 4 дня • Начни говорить уже сегодня
         </p>
       </div>
 

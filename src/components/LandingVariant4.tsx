@@ -4,24 +4,24 @@ import Icon from "@/components/ui/icon";
 const LandingVariant4 = () => {
   const benefits = [
     {
-      icon: "Gamepad2",
-      title: "Геймификация",
-      description: "Изучай английский как увлекательную игру",
+      icon: "Clock",
+      title: "Всего 4 дня",
+      description: "Не месяцы учебы - быстрый интенсивный результат",
     },
     {
-      icon: "Mic",
-      title: "Живые диалоги",
-      description: "Реальные ситуации вместо скучных упражнений",
+      icon: "DollarSign",
+      title: "Бесплатно",
+      description: "Никаких скрытых платежей - полностью бесплатный интенсив",
     },
     {
-      icon: "Sparkles",
-      title: "Интерактив",
-      description: "VR, чат-боты, ролевые игры",
+      icon: "Users",
+      title: "Малые группы",
+      description: "До 12 человек - каждому уделяем внимание",
     },
     {
-      icon: "Zap",
-      title: "Быстрый результат",
-      description: "Видишь прогресс уже с первого урока",
+      icon: "Award",
+      title: "Опытные преподаватели",
+      description: "Эксперты по преодолению языкового барьера",
     },
   ];
 
@@ -53,18 +53,18 @@ const LandingVariant4 = () => {
             </div>
 
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Английский как
+              Бесплатный интенсив:
               <span className="bg-gradient-to-r from-pink-600 to-yellow-600 bg-clip-text text-transparent">
                 {" "}
-                увлекательная игра
+                "Как заговорить"
               </span>
-              , а не мучение
+              на английском за 4 дня
             </h1>
 
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Достали скучные учебники и зубрежка? Изучай английский через игры,
-              интерактивные диалоги и реальные ситуации. Получай удовольствие от
-              каждого урока!
+              Устал тратить деньги на курсы без результата? Попробуй наш
+              бесплатный интенсив! 4 дня интенсивной практики, после которых ты
+              наконец заговоришь или вернем время.
             </p>
 
             <div className="bg-gradient-to-r from-pink-100 to-yellow-100 p-6 rounded-2xl mb-8">

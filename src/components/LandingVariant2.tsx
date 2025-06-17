@@ -5,23 +5,23 @@ const LandingVariant2 = () => {
   const benefits = [
     {
       icon: "Users",
-      title: "Живое общение",
-      description: "Разговорные клубы каждый день",
+      title: "Разговорная практика каждый день",
+      description: "4 часа живого общения на английском",
     },
     {
-      icon: "Globe",
-      title: "Носители языка",
-      description: "Практика с американцами и британцами",
+      icon: "Clock",
+      title: "Удобное время",
+      description: "Вечерние занятия после работы 19:00-20:30",
     },
     {
-      icon: "Calendar",
-      title: "Гибкое расписание",
-      description: "Выбирай удобное время для практики",
+      icon: "CheckCircle",
+      title: "Без домашних заданий",
+      description: "Все изучаем и отрабатываем прямо на уроке",
     },
     {
       icon: "Heart",
-      title: "Дружелюбная атмосфера",
-      description: "Найди друзей для изучения языка",
+      title: "Поддерживающая атмосфера",
+      description: "Никто не смеется над ошибками - все учатся",
     },
   ];
 
@@ -55,18 +55,18 @@ const LandingVariant2 = () => {
             </div>
 
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Практикуй английский с
+              Получи 4 дня
               <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
                 {" "}
-                единомышленниками
+                интенсивной практики
               </span>
-              каждый день
+              английского языка
             </h1>
 
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Нет с кем практиковать английский? Присоединяйся к нашему
-              сообществу из 5,000+ студентов! Разговорные клубы, парная практика
-              и носители языка ждут тебя.
+              Нет времени на долгие курсы? Хочешь быстрый результат? Интенсив
+              поможет тебе активировать пассивный словарь и начать говорить
+              уверенно всего за 4 дня.
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 mb-12">
